@@ -1,3 +1,24 @@
+# para imprimir solo el valor de los print
+def menzaje():
+    print("nadres")
+    print("karen")
+menzaje()
+# funcion para imprimir los valores de las variables 
+def suma():
+    num1 = 20
+    num2 = 20
+    print(num1+ num2)
+suma()
+# funcion con parametros 
+def resta(num1, num2):
+    print(num1 - num2)
+resta(12,10)
+# funcion con return 
+def multiplicacion(num1, num2):
+    resultado = num1 * num2
+    return resultado
+print(multiplicacion(20,20))
+# ddjdkdkdkd
 numero1=5
 numero2=7
 if numero1>numero2:
